@@ -131,13 +131,6 @@ In `ModelViewer.jsx`, modify the Environment preset:
 
 ## Troubleshooting
 
-### Model doesn't load
-
-1. Check the file path is correct
-2. Ensure all files (.gltf, .bin, textures) are in `/public/models/`
-3. Check browser console for errors
-4. Verify the GLTF file is valid (use https://gltf-viewer.donmccurdy.com/)
-
 ### Model appears too small/large
 
 The auto-scaling should handle this, but you can manually adjust in `Model.jsx`:
