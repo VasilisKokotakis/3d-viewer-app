@@ -2,16 +2,16 @@
 
 A simple, clean 3D model viewer built with React and Three.js for displaying GLTF models.
 
-## 🚀 Features
+## Features
 
-- ✅ Load and display GLTF/GLB models
-- ✅ Orbit controls (rotate, zoom, pan)
-- ✅ Auto-scaling and centering of models
-- ✅ Professional lighting setup
-- ✅ Responsive design
-- ✅ Loading states and error handling
+-  Load and display GLTF/GLB models
+-  Orbit controls (rotate, zoom, pan)
+-  Auto-scaling and centering of models
+-  Professional lighting setup
+-  Responsive design
+-  Loading states and error handling
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Install dependencies
@@ -24,7 +24,7 @@ npm run dev
 npm run build
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 3d-viewer-app/
@@ -45,7 +45,7 @@ npm run build
 └── vite.config.js
 ```
 
-## 🎯 How to Use
+## How to Use
 
 ### 1. Add Your 3D Models
 
@@ -76,13 +76,13 @@ npm run dev
 
 Your browser will open at `http://localhost:3000`
 
-## 🎮 Controls
+## Controls
 
 - **Left Click + Drag**: Rotate the model
 - **Right Click + Drag**: Pan the camera
 - **Scroll Wheel**: Zoom in/out
 
-## 🔧 Customization
+## Customization
 
 ### Change Camera Position
 
@@ -121,7 +121,7 @@ In `ModelViewer.jsx`, modify the Environment preset:
 <Environment preset="sunset" /> // Options: sunset, dawn, night, warehouse, forest, apartment, studio, city, park, lobby
 ```
 
-## 📚 Tech Stack
+## Tech Stack
 
 - **React 18** - UI framework
 - **Three.js** - 3D rendering engine
@@ -129,7 +129,7 @@ In `ModelViewer.jsx`, modify the Environment preset:
 - **@react-three/drei** - Useful helpers for React Three Fiber
 - **Vite** - Fast build tool and dev server
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Model doesn't load
 
@@ -152,14 +152,7 @@ const scale = 2 / maxDim // Change the 2 to make bigger/smaller
 2. Optimize textures (use smaller sizes)
 3. Use GLB format instead of GLTF (single file, faster to load)
 
-## 🎨 Example Models
-
-You can test with free models from:
-- [Sketchfab](https://sketchfab.com/features/gltf) (download as GLTF)
-- [Three.js Examples](https://github.com/mrdoob/three.js/tree/dev/examples/models/gltf)
-- [Poly Haven](https://polyhaven.com/models)
-
-## 📝 Next Steps (Beyond MVP)
+## Next Steps (Beyond MVP)
 
 - Multiple model selection
 - File upload functionality
@@ -169,12 +162,4 @@ You can test with free models from:
 - Animation playback
 - VR support
 
-## 📄 License
 
-MIT - Feel free to use this for your projects!
-
----
-
-Built with ❤️ using React and Three.js
-# 3D-Viewer
-# test
